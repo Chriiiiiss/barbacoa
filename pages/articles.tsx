@@ -23,15 +23,11 @@ const Articles: NextPage<LayoutProps> = (article: LayoutProps) => {
                     crossOrigin=""
                 />
                 <meta name="description" content="Nos Articles, pensés et écrits par nos chefs cuisinier Alexandra, Inès et Chris" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon.png" />
             </Head>
             <BarbaHeader/>
             <h3 className='h3Title'>Nos articles</h3>
             <LayoutContent article={true}>
-                <ArticleCards/>
-                <ArticleCards/>
-                <ArticleCards/>
-                <ArticleCards/>
                 <ArticleCards/>
                 <ArticleCards/>
             </LayoutContent>

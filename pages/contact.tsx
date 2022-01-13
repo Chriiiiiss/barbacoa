@@ -17,7 +17,7 @@ const Contact: NextPage = () => {
                     crossOrigin=""
                 />
                 <meta name="description" content="Garder le contact avec Barbacoa ! " />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon.png" />
             </Head>
             <BarbaHeader/>
             <h3 className='h3Title'>Contactez-nous !</h3>

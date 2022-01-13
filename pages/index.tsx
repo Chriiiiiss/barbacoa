@@ -15,7 +15,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Barbacoa</title>
+        <title>BARBACOA</title>
         <link
           rel="preload"
           href="fonts/OhnoFatfaceDemo-12Pt.otf"
@@ -23,10 +23,10 @@ const Home: NextPage = () => {
           crossOrigin=""
         />
         <meta name="description" content="Site de comparaison de barbecue" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <BarbaHeader/>
-      <h3 className='h3Title'>Barbacoa,<br/>le comparateur de barbecues !</h3>
+      <h3 className='h3Title'>BARBACOA,<br/>le comparateur de barbecues !</h3>
       <h4 className='subTitle'>Trouvez le barbecue parfait pour vos futurs repas estivaux !</h4>
       <FilterBar/>
       <LayoutContent article={false}>

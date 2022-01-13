@@ -17,7 +17,7 @@ const About: NextPage = () => {
                     crossOrigin=""
                 />
                 <meta name="description" content="Les créateurs de Barbacoa, Le meilleur comparateur de Barbecue" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon.png" />
             </Head>
             <BarbaHeader/>
             <h3 className='h3Title'>Qui sommes-nous ?</h3>
