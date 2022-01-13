@@ -1,6 +1,6 @@
 .layout {
     height: 200px;
-    width: 626px;
+    max-width: 700px;
     display: flex;
     gap: 44px;
 }
@@ -22,18 +22,21 @@
 }
 
 .bbqTitle{
-    margin-right: 11px;
+    padding-right: 11px;
+    min-width: 200px;
     font-family: BeVietnam;
     font-weight: 600;
     font-size: 24px;
     color: #282828;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 .bbqPrice {
     font-family: BeVietnam;
     font-weight: 600;
     font-size: 24px;
+    display: flex;
+    align-items: center;
     color: #DD5E1F;
 }
 

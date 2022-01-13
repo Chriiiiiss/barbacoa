@@ -1,8 +1,12 @@
 import type { NextPage } from "next";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import Image from "next/image";
 
 const BarbaHeader: NextPage = () => {
+
+    const router = useRouter();
+
     return (
         <header className='headerBox'>
             <div className='logo'>
@@ -17,16 +21,16 @@ const BarbaHeader: NextPage = () => {
             </div>
             <div className='navBar'>
                 <Link href="/" passHref>
-                    <a className='menuText active'>Comparer</a>
+                    <a className={router.pathname == "/" ? "active menuText" : "menuText"}>Comparer</a>
                 </Link>
-                <Link href="/" passHref>
-                    <a className='menuText'>Articles</a>
+                <Link href="/articles" passHref>
+                    <a className={router.pathname == "/articles" ? "active menuText" : "menuText"}>Articles</a>
                 </Link>
-                <Link href="/" passHref>
-                    <a className='menuText'>À propos</a>
+                <Link href="/about" passHref>
+                    <a className={router.pathname == "/about" ? "active menuText" : "menuText"}>À propos</a>
                 </Link>
-                <Link href="/" passHref>
-                    <a className='menuText'>Contact</a>
+                <Link href="/contact" passHref>
+                    <a className={router.pathname == "/contact" ? "active menuText" : "menuText"}>Contact</a>
                 </Link>
             </div>
         </header>
