@@ -1,9 +1,25 @@
+@font-face {
+  font-family: "BeVietnam";
+  src: url("/fonts/Be_Vietnam_Pro/BeVietnamPro-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "BeVietnam";
+  src: url("/fonts/Be_Vietnam_Pro/BeVietnamPro-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "OhnoFatface";
+  src: url("/fonts/OhnoFatfaceDemo-12Pt.otf");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #F4F0E9;
 }
 
 a {
@@ -13,4 +29,73 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+
+/*
+
+  Header CSS
+
+*/
+
+
+.headerBox {
+  height: 160px;
+  max-width: 1650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 74px;
+  /* padding-right: 77px; */
+}
+
+.navBar{
+  width: 445px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  line-height: 0;
+}
+
+
+.menuText {
+  font-family: BeVietnam;
+  font-weight: 600;
+  font-size: 20px;
+  color: #282828;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 1px) and (max-width:1721px) {
+  .headerBox {
+    padding-right: 77px;
+  }
+}
+
+
+/*
+
+Content
+
+*/
+
+
+.h3Title{
+  font-family: OhnoFatface;
+  font-size: 48px;
+  color: #282828;
+  padding-left: 74px;
+}
+
+.subTitle{
+  font-family: BeVietnam;
+  font-weight: 600;
+  font-size: 24px;
+  padding-left: 74px ;
+  padding-top: 24px;
+}
+
+.active{
+  color: #DD5E1F !important;
 }
