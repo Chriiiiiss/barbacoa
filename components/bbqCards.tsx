@@ -16,7 +16,7 @@ const BbqCards: NextPage = () => {
             </div>
             <div className={styles.textLayout}>
                 <div className={styles.titleTextLayout}>
-                    <h4 className={styles.bbqTitle}>Barbecue Alice's Garden</h4>
+                    <h4 className={styles.bbqTitle}>Barbecue Alice&apos;s Garden</h4>
                     <h4 className={styles.bbqPrice}>249,99€</h4>
                 </div>
                 <div className={styles.textContent}>

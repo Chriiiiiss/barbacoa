@@ -6,13 +6,12 @@
     flex: 50%;
     display: flex;
     gap: 44px;
-    background-color: azure;
+    background-color: #FFF;
 }
 
 .imageLayout {
     width: 309px;
     height: 200px;
-    background-color: aquamarine;
     border-radius: 30px;
 }
 

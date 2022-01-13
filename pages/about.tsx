@@ -33,7 +33,7 @@ const About: NextPage = () => {
                 choisir un barbecue. Nous avons alors développé un service simple, rapide et efficace, et<br/>
                 surtout gratuit.<br/><br/>
 
-                Les utilisateurs apprécient nos services et sont satisfaits de l'outil, c’est donc un pari gagnant<br/>
+                Les utilisateurs apprécient nos services et sont satisfaits de l&apos;outil, c’est donc un pari gagnant<br/>
                 pour nous !<br/><br/>
 
                 Nous souhaitons transmettre des valeurs de partage, de bien-être et de légèreté tout en<br/>
