@@ -1,15 +1,40 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+
 import BarbaHeader from "../components/header";
 import BarbaFooter from "../components/footer";
+import LayoutContent from "../components/layoutContent";
 
 const About: NextPage = () => {
     return(
         <>
             <Head>
-                <title>About</title>
+                <title>Qui sommes-nous ?</title>
+                <meta name="description" content="Les créateurs de Barbacoa, Le meilleur comparateur de Barbecue" />
+                <link rel="icon" href="/favicon.ico" />
             </Head>
             <BarbaHeader/>
+            <h3 className='h3Title'>Qui sommes-nous ?</h3>
+            <LayoutContent>
+                <p className="aboutText">
+                Nous sommes une jeune entreprise de 3 associés spécialisée dans les outils comparatifs.<br/>
+                Nous souhaitons offrir à nos clients le meilleur produit possible avec un comparateur complet<br/>
+                qui les guidera selon leurs envies.<br/><br/>
+
+                C’est lors d’une journée d’été de 2015 que l’idée nous est venue après une longue discussion sur<br/>
+                le choix du barbecue à acheter pour les repas des vacances. De nombreuses recherches sur<br/>
+                Internet et l’avis de plusieurs vendeurs en boutique nous ont paru trop longs dans le but de<br/>
+                choisir un barbecue. Nous avons alors développé un service simple, rapide et efficace, et<br/>
+                surtout gratuit.<br/><br/>
+
+                Les utilisateurs apprécient nos services et sont satisfaits de l'outil, c’est donc un pari gagnant<br/>
+                pour nous !<br/><br/>
+
+                Nous souhaitons transmettre des valeurs de partage, de bien-être et de légèreté tout en<br/>
+                proposant un service de qualité et gratuit. Trouver le meilleur produit au meilleur prix est notre<br/>
+                priorité, car le bonheur du client fait notre satisfaction.
+                </p>
+            </LayoutContent>
             <BarbaFooter/>
         </>
     )

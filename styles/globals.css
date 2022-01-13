@@ -7,7 +7,7 @@
 @font-face {
   font-family: "BeVietnam";
   src: url("/fonts/Be_Vietnam_Pro/BeVietnamPro-Regular.ttf");
-  font-weight: 400;
+  font-weight: 300;
 }
 
 @font-face {
@@ -124,6 +124,20 @@ a {
   overflow: scroll;
 }
 
+/*
+
+  About
+
+*/
+
+
+.aboutText{
+  font-family: BeVietnam;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 18px;
+  color: #282828;
+}
 
 /*
 
@@ -141,8 +155,24 @@ a {
 }
 
 .footerText{
+  max-width: 822px;
   font-family: BeVietnam;
   font-weight: 600;
   font-size: 14;
   color: #282828;
+}
+
+.underlined{
+  color: #282828;
+  position: relative;
+}
+
+.underlined::after{
+  content:'';
+  left: -1px;
+  bottom: 1px;
+  position: absolute;
+  width: 98%;
+  border-bottom: solid 2px #282828;
+  margin: 0 2px;
 }

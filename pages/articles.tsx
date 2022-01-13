@@ -15,7 +15,7 @@ const Articles: NextPage<LayoutProps> = (article: LayoutProps) => {
     return(
         <>
             <Head>
-                <title>Articles</title>
+                <title>Now articles</title>
                 <meta name="description" content="Articles de Barbacoa sur le barbecue"/>
             </Head>
             <BarbaHeader/>
