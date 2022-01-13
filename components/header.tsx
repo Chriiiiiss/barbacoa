@@ -8,10 +8,10 @@ const BarbaHeader: NextPage = () => {
             <div className='logo'>
                 <Link href="/" passHref>
                     <Image
-                    src="/barbacoa_logo.svg"
-                    alt="Barbacoa Logo"
-                    width={191}
-                    height={23}
+                        src="/barbacoa_logo.svg"
+                        alt="Barbacoa Logo"
+                        width={191}
+                        height={23}
                     />
                 </Link>
             </div>

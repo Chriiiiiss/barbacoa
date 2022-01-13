@@ -1,0 +1,66 @@
+.layout {
+    height: 200px;
+    width: 626px;
+    display: flex;
+    gap: 44px;
+}
+
+.imgLayout {
+    min-width: 191px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.textLayout{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titleTextLayout{
+    display: flex;
+}
+
+.bbqTitle{
+    margin-right: 11px;
+    font-family: BeVietnam;
+    font-weight: 600;
+    font-size: 24px;
+    color: #282828;
+    white-space: nowrap;
+}
+
+.bbqPrice {
+    font-family: BeVietnam;
+    font-weight: 600;
+    font-size: 24px;
+    color: #DD5E1F;
+}
+
+.textContent{
+    font-family: BeVietnam;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #282828;
+}
+
+.callToAction{
+    width: 94px;
+    box-sizing:content-box;
+    font-family: BeVietnam;
+    font-weight: 600;
+    font-size: 20px;
+    color: #282828;
+}
+
+.callToAction::after{
+    content: '';
+    display: inherit;
+    width: 92px;
+    border-bottom: solid 3px #DD5E1F;
+    margin: 0 2px;
+}

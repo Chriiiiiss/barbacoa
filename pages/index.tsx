@@ -3,6 +3,9 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import BarbaHeader from '../components/header'
+import LayoutContent from '../components/layoutContent'
+import BarbaFooter from '../components/footer'
+import FilterBar from '../components/filterBar'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -22,6 +25,9 @@ const Home: NextPage = () => {
       <BarbaHeader/>
       <h3 className='h3Title'>Barbacoa,<br/>le comparateur de barbecues !</h3>
       <h4 className='subTitle'>Trouvez le barbecue parfait pour vos futurs repas estivaux !</h4>
+      <FilterBar/>
+      <LayoutContent/>
+      <BarbaFooter/>
     </>
   )
 }

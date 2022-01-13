@@ -1,0 +1,41 @@
+.layout{
+    height: 61px;
+    margin-left: 74px;
+    margin-right: 74px;
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 3px #282828;
+    border-bottom: solid 3px #282828;
+}
+
+.filterComp{
+    font-family: BeVietnam;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.arrowImg{
+    margin-left: 6px;
+    width: 15px !important;
+    height: 22px !important;
+}
+
+.filterBox{
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    white-space: nowrap;
+}
+
+.reloadFilter{
+    font-family: BeVietnam;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}

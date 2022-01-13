@@ -67,6 +67,10 @@ a {
   white-space: nowrap;
 }
 
+.active{
+  color: #DD5E1F !important;
+}
+
 @media screen and (min-width: 1px) and (max-width:1721px) {
   .headerBox {
     padding-right: 77px;
@@ -76,7 +80,7 @@ a {
 
 /*
 
-Content
+  Content
 
 */
 
@@ -86,6 +90,7 @@ Content
   font-size: 48px;
   color: #282828;
   padding-left: 74px;
+  padding-right: 74px;
 }
 
 .subTitle{
@@ -93,9 +98,40 @@ Content
   font-weight: 600;
   font-size: 24px;
   padding-left: 74px ;
+  padding-right: 74px ;
   padding-top: 24px;
 }
 
-.active{
-  color: #DD5E1F !important;
+.layoutContent{
+  /* min-height: 247px; */
+  height: 440px;
+  margin-top: 47px;
+  padding-left: 74px;
+  padding-right: 74px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+
+/*
+
+  Footer
+
+*/
+
+.footerBox{
+  margin-top: 43px;
+  margin-bottom: 37px;
+  padding-left: 74px;
+  padding-right: 74px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerText{
+  font-family: BeVietnam;
+  font-weight: 600;
+  font-size: 14;
+  color: #282828;
 }
