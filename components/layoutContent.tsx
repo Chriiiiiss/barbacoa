@@ -1,11 +1,13 @@
 import type { NextPage } from "next";
-import BbqCards from "./bbqCards";
 
-const LayoutContent: NextPage = () => {
+interface Props {
+    article: Boolean;
+}
+
+const LayoutContent: NextPage<Props> = ({children}, props) => {
     return(
-        <div className="layoutContent">
-            <BbqCards/>
-            <BbqCards/>
+        <div className={props.article == false ? "layoutContent" : "layoutContentArticle"}>
+            {children}
         </div>
     )
 }
