@@ -10,12 +10,18 @@ const About: NextPage = () => {
         <>
             <Head>
                 <title>Qui sommes-nous ?</title>
+                <link
+                    rel="preload"
+                    href="fonts/OhnoFatfaceDemo-12Pt.otf"
+                    as="font"
+                    crossOrigin=""
+                />
                 <meta name="description" content="Les créateurs de Barbacoa, Le meilleur comparateur de Barbecue" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <BarbaHeader/>
             <h3 className='h3Title'>Qui sommes-nous ?</h3>
-            <LayoutContent>
+            <LayoutContent article={false}>
                 <p className="aboutText">
                 Nous sommes une jeune entreprise de 3 associés spécialisée dans les outils comparatifs.<br/>
                 Nous souhaitons offrir à nos clients le meilleur produit possible avec un comparateur complet<br/>

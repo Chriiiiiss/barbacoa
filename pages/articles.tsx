@@ -11,12 +11,19 @@ type LayoutProps = {
 }
 
 const Articles: NextPage<LayoutProps> = (article: LayoutProps) => {
-    
+
     return(
         <>
             <Head>
-                <title>Now articles</title>
-                <meta name="description" content="Articles de Barbacoa sur le barbecue"/>
+                <title>Nos articles</title>
+                <link
+                    rel="preload"
+                    href="fonts/OhnoFatfaceDemo-12Pt.otf"
+                    as="font"
+                    crossOrigin=""
+                />
+                <meta name="description" content="Nos Articles, pensés et écrits par nos chefs cuisinier Alexandra, Inès et Chris" />
+                <link rel="icon" href="/favicon.ico" />
             </Head>
             <BarbaHeader/>
             <h3 className='h3Title'>Nos articles</h3>

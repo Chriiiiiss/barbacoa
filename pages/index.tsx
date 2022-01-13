@@ -29,7 +29,7 @@ const Home: NextPage = () => {
       <h3 className='h3Title'>Barbacoa,<br/>le comparateur de barbecues !</h3>
       <h4 className='subTitle'>Trouvez le barbecue parfait pour vos futurs repas estivaux !</h4>
       <FilterBar/>
-      <LayoutContent>
+      <LayoutContent article={false}>
         <BbqCards/>
         <BbqCards/>
         <BbqCards/>
