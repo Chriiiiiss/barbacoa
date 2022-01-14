@@ -31,8 +31,6 @@ const Home: NextPage = () => {
       <FilterBar/>
       <LayoutContent article={false}>
         <BbqCards/>
-        <BbqCards/>
-        <BbqCards/>
       </LayoutContent>
       <BarbaFooter/>
     </>
