@@ -30,8 +30,8 @@ const About: NextPage = () => {
                 C’est lors d’une journée d’été de 2015 que l’idée nous est venue après une longue discussion sur<br/>
                 le choix du barbecue à acheter pour les repas des vacances. De nombreuses recherches sur<br/>
                 Internet et l’avis de plusieurs vendeurs en boutique nous ont paru trop longs dans le but de<br/>
-                choisir un barbecue. Nous avons alors développé un service simple, rapide et efficace, et<br/>
-                surtout gratuit.<br/><br/>
+                choisir un barbecue. Barbecue, plancha, gaz, charbon, électrique ? Que choisir ? Nous<br/>
+                avons alors développé un service simple, rapide et efficace, et surtout gratuit.<br/><br/>
 
                 Les utilisateurs apprécient nos services et sont satisfaits de l&apos;outil, c’est donc un pari gagnant<br/>
                 pour nous !<br/><br/>
