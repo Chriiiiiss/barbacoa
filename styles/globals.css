@@ -191,6 +191,10 @@ ol li {
   overflow: scroll;
 }
 
+.imgReceipts {
+  border-radius: 30px;
+}
+
 /*
 
   About

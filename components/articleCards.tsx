@@ -8,9 +8,10 @@ interface Article {
     title: string
     date: string
     imgArticle: string
+    id: string
 }
 
-const ArticleCards: NextPage<Article> = ({title, date, imgArticle}) => {
+const ArticleCards: NextPage<Article> = ({title, date, imgArticle, id}) => {
     return(
         <div className={styles.cardLayout}>
             <div className={styles.imageLayout}>
@@ -25,7 +26,7 @@ const ArticleCards: NextPage<Article> = ({title, date, imgArticle}) => {
             </div>
             <div className={styles.textLayout}>
                 <h3 className={styles.articleTitle}>{title}</h3>
-                <Link href="https://stackoverflow.com/" passHref>
+                <Link href={`/posts/${id}`} passHref>
                     <a className={styles.callToAction}>Consulter</a>
                 </Link>
                 <p className={styles.dateStamp}>{date}</p>

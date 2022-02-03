@@ -54,7 +54,7 @@ const Posts: NextPage<PostData> = ({postData}) => {
                     })}
                 </div>
                 <div className="stepsLayout">
-                    <div>
+                    <div style={{overflow: 'hidden'}}>
                         <Image
                             src={postData.imgInArticle}
                             width={300}
@@ -62,6 +62,7 @@ const Posts: NextPage<PostData> = ({postData}) => {
                             alt= "Image Article BBQ"
                             layout="fixed"
                             priority
+                            className="imgReceipts"
                         />
                     </div>
                     <div>

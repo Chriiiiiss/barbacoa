@@ -1,6 +1,6 @@
 ---
 title: 'Grillades d’ete vegetariennes'
-date: '2020-01-01'
+date: '31/12/2021'
 imgArticle: '/base/article_img.png'
 imgInArticle: '/base/article_inside.png'
 subtitle: 'Rien de mieux pour l’été qu’une bonne grillade de légumes aubergines, courgettes et maïs.'

@@ -53,7 +53,7 @@ const Articles: NextPage<ArticleProps> = ({article, allPostsData}) => {
             <h3 className='h3Title'>Nos articles</h3>
             <LayoutContent article={true}>
             {allPostsData.map(({id,title,date, imgArticle}: Posts) => (
-                <ArticleCards key={id} title={title} date={date} imgArticle={imgArticle}/>
+                <ArticleCards key={id} title={title} date={date} imgArticle={imgArticle} id={id}/>
             ))}
             </LayoutContent>
             <BarbaFooter/>
