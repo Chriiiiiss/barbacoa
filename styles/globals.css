@@ -32,6 +32,13 @@ a {
   margin: 0;
 }
 
+ol {
+  padding-left: 0;
+}
+
+ol li {
+  margin-bottom: 25px;
+}
 
 /*
 
@@ -50,7 +57,7 @@ a {
   /* padding-right: 77px; */
 }
 
-.navBar{
+.navBar {
   width: 445px;
   display: flex;
   align-items: center;
@@ -67,7 +74,7 @@ a {
   white-space: nowrap;
 }
 
-.active{
+.active {
   color: #DD5E1F !important;
 }
 
@@ -85,7 +92,7 @@ a {
 */
 
 
-.h3Title{
+.h3Title {
   font-family: OhnoFatface;
   font-size: 48px;
   color: #282828;
@@ -94,16 +101,18 @@ a {
   line-height: 50px;
 }
 
-.subTitle{
+.subTitle {
+  max-width: 850px;
   font-family: BeVietnam;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 24px;
   padding-left: 74px ;
   padding-right: 74px ;
   padding-top: 24px;
+  color:#282828
 }
 
-.layoutContent{
+.layoutContent {
   height: 440px;
   margin-top: 47px;
   padding-left: 74px;
@@ -114,7 +123,7 @@ a {
   overflow: scroll;
 }
 
-.layoutContentArticle{
+.layoutContentArticle {
   height: 440px;
   max-width: 1400px;
   margin-top: 47px;
@@ -122,6 +131,63 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  overflow: scroll;
+}
+
+.textReceiptsContent{
+  margin-bottom: 8px;
+  font-family: BeVietnam;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #282828;
+}
+
+.textReceiptsSteps {
+  font-family: BeVietnam;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.textReceiptsContentNbr{
+  margin-bottom: 24px;
+  font-family: BeVietnam;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #282828;
+}
+
+.stepsLayout {
+  display: flex;
+  gap: 60px;
+}
+
+.subTitleReceipts {
+  max-width: 850px;
+  font-family: BeVietnam;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color:#282828
+}
+
+.layoutReceipts {
+  height: 600px;
+  margin-top: 47px;
+  padding-left: 74px;
+  padding-right: 74px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   overflow: scroll;
 }
 

@@ -11,12 +11,14 @@ const BarbaHeader: NextPage = () => {
         <header className='headerBox'>
             <div className='logo'>
                 <Link href="/" passHref>
-                    <Image
-                        src="/barbacoa_logo.svg"
-                        alt="Barbacoa Logo"
-                        width={191}
-                        height={23}
-                    />
+                    <a>
+                        <Image
+                            src="/barbacoa_logo.svg"
+                            alt="Barbacoa Logo"
+                            width={191}
+                            height={23}
+                        />
+                    </a>
                 </Link>
             </div>
             <div className='navBar'>
