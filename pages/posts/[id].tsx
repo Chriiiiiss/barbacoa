@@ -54,7 +54,7 @@ const Posts: NextPage<PostData> = ({postData}) => {
                     })}
                 </div>
                 <div className="stepsLayout">
-                    <div style={{overflow: 'hidden'}}>
+                    <div >
                         <Image
                             src={postData.imgInArticle}
                             width={300}
@@ -66,7 +66,7 @@ const Posts: NextPage<PostData> = ({postData}) => {
                         />
                     </div>
                     <div>
-                        <p className="subTitleReceipts">Recette:</p>
+                        {/* <p className="subTitleReceipts">Recette:</p> */}
                         <div className={"textReceiptsSteps"} dangerouslySetInnerHTML={{__html: postData.contentHtml}}/>
                     </div>
                 </div>
