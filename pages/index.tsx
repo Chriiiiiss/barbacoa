@@ -30,7 +30,6 @@ const Home: NextPage = () => {
       <h4 className='subTitle'>Trouvez le barbecue parfait pour vos futurs repas estivaux !</h4>
       <FilterBar/>
       <LayoutContent article={false}>
-        <BbqCards/>
       </LayoutContent>
       <BarbaFooter/>
     </>
